@@ -1,0 +1,83 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        cream: {
+          50: '#FFFDFB',
+          100: '#FDF8F3',
+          200: '#FAF0E6',
+          300: '#F5E6D3',
+          400: '#EDD9C0',
+          500: '#E5CCAD',
+          600: '#D4B896',
+          700: '#C3A47F',
+          800: '#A88B66',
+          900: '#8D724D',
+        },
+        green: {
+          50: '#F0F5F1',
+          100: '#DCE8DE',
+          200: '#B9D1BD',
+          300: '#8FB896',
+          400: '#5E9968',
+          500: '#3D7A4A',
+          600: '#2D5A3D',
+          700: '#244A32',
+          800: '#1C3A27',
+          900: '#152A1D',
+        },
+        gold: {
+          50: '#FEF9F0',
+          100: '#FCF0DB',
+          200: '#F9E1B7',
+          300: '#F5CE8A',
+          400: '#E8A54B',
+          500: '#D4912F',
+          600: '#B87A24',
+          700: '#9A6520',
+          800: '#7C501C',
+          900: '#5E3B18',
+        },
+        sage: {
+          50: '#F7F9F7',
+          100: '#EDF2ED',
+          200: '#D9E4D9',
+          300: '#BFD1BF',
+          400: '#9CB89C',
+          500: '#7A9F7A',
+          600: '#5C8A5C',
+          700: '#4A724A',
+          800: '#3D5C3D',
+          900: '#304830',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        serif: ['Playfair Display', 'Georgia', 'serif'],
+      },
+      borderRadius: {
+        'xl': '1rem',
+        '2xl': '1.25rem',
+        '3xl': '1.5rem',
+        '4xl': '2rem',
+      },
+      boxShadow: {
+        'soft': '0 2px 8px rgba(45, 90, 61, 0.08)',
+        'soft-md': '0 4px 16px rgba(45, 90, 61, 0.1)',
+        'soft-lg': '0 8px 24px rgba(45, 90, 61, 0.12)',
+        'card': '0 2px 12px rgba(45, 90, 61, 0.06)',
+      },
+      spacing: {
+        '18': '4.5rem',
+        '22': '5.5rem',
+        '88': '22rem',
+      },
+      maxWidth: {
+        'mobile': '430px',
+      },
+    },
+  },
+  plugins: [],
+};
