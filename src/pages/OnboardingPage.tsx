@@ -15,7 +15,7 @@ export function OnboardingPage() {
       <div className="flex-1 flex flex-col items-center justify-center">
         <div className="relative w-64 h-64 mb-8">
           <img
-            src="https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=400"
+            src="/fond_intro_appli.png"
             alt="Legumes frais"
             className="w-full h-full object-contain"
           />
